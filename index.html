@@ -8,6 +8,8 @@
   <link href="https: //fonts.googleapis.com/css2? family = Open + Sans: wght @ 400; 600; 700 & display = swap "
     rel=" stylesheet ">
   <link rel="stylesheet" href="./main.css">
+
+
   <title>Air Asia</title>
 
 
@@ -15,35 +17,39 @@
 
 <body>
 
-  
-
-    <div class="wrapper">
 
 
+  <div class="wrapper">
 
-      <header class="header">
 
-        <div class="container">
 
+    <header class="header">
+
+      <div class="container">
+
+        <div class="header__col">
           <a href="/" class="logo">
             <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
           </a>
-          <div class="up">
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item-active">
-                  <a href="#" class="menu__link-active">Главная</a>
-                </li>
-                <li class="menu__item-active">
-                  <a href="#" class="menu__link-active">Услуги</a>
-                </li>
-                <li class="menu__item-active">
-                  <a href="#" class="menu__link-active">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
 
+
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item-active">
+                <a href="#" class="menu__link-active">Главная</a>
+              </li>
+              <li class="menu__item-active">
+                <a href="#" class="menu__link-active">Услуги</a>
+              </li>
+              <li class="menu__item-active">
+                <a href="#" class="menu__link-active">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+
+        <div class="header__col-right">
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             <div class="contacts__workhours">График работы</div>
@@ -56,19 +62,25 @@
 
         </div>
 
-      </header>
+      </div>
 
 
+    </header>
+
+
+
+
+    <main>
       <div class="main-content">
 
         <div class="container">
           <div class="greeting">
-            <img src="" alt="" class="greeting__image-elem">
+
             <div class="greeting__content">
               <h1 class="greeting__title">Авторские туры по Азии</h1>
               <p class="greeting__text">Открой для себя Азию</p>
-              <div class="container__button">
-                <div class="greeting__active btn">Подробнее</div>
+              <div class="btn-container">
+                <div class="btn">Подробнее</div>
               </div>
             </div>
           </div>
@@ -110,11 +122,13 @@
                     </div>
                   </div>
 
-                  <div class="container__button-wrapper">
-                    <div class="container__button">
-                      <div class="rout__active btn">Смотреть</div>
+
+                  <div class="btn-container">
+                    <div class="btn-container__rout">
+                      <div class="btn">Смотреть</div>
                     </div>
                   </div>
+
 
                 </div>
               </li>
@@ -143,11 +157,13 @@
                     </div>
                   </div>
 
-                  <div class="container__button-wrapper">
-                    <div class="container__button">
-                      <div class="rout__active btn">Смотреть</div>
+
+                  <div class="btn-container">
+                    <div class="btn-container__rout">
+                      <div class="btn">Смотреть</div>
                     </div>
                   </div>
+
 
                 </div>
               </li>
@@ -176,11 +192,13 @@
                     </div>
                   </div>
 
-                  <div class="container__button-wrapper">
-                    <div class="container__button">
-                      <div class="rout__active btn">Смотреть</div>
+
+                  <div class="btn-container">
+                    <div class="btn-container__rout">
+                      <div class="btn">Смотреть</div>
                     </div>
                   </div>
+
 
                 </div>
               </li>
@@ -189,156 +207,161 @@
           </div>
         </div>
       </div>
-    </div>
 
 
-    <div class="news">
+
+
+      <div class="news">
+        <div class="container">
+          <h2 class="news__header">Новости и акции</h2>
+
+          <ul class="news__action">
+
+            <li class="action__option">
+              <img src="./img/plain.png" alt="plain" class="action__img">
+              <div class="action__text-content">
+                <p class="action__time">Декабрь 2019</p>
+                <h3 class="action__title">Дешевые путевки на Новый год!</h3>
+                <p class="action__text">Проведи новый год в Тайланде</p>
+              </div>
+            </li>
+
+            <li class="action__option">
+              <img src="./img/surfer.png" alt="surfer" class="action__img">
+              <div class="action__text-content">
+                <p class="action__time">Декабрь 2019</p>
+                <h3 class="action__title">Акции для серфингистов!</h3>
+                <p class="action__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов.
+                  Удачного
+                  пути!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="paginator">
+          <div class="paginator__display">Страница 1 из 7</div>
+          <ui class="paginator__list">
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">1</a></li>
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">2</a></li>
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">3</a></li>
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">4</a></li>
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">5</a></li>
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">6</a></li>
+            <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">7</a></li>
+          </ui>
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="description">
+
+        <div class="container">
+
+          <div class="description__about">
+
+            <div class="description__text">
+
+              <h3 class="description__title">О нас</h3>
+
+              <div class="description__content">
+                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                  менее
+                  осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений
+                  в
+                  домашних условиях.
+                </p>
+              </div>
+              <div class="btn-container">
+                <div class="btn">Подробнее</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+
+
+
+
+
+
+    <footer class="footer">
+
       <div class="container">
-        <h2 class="news__header">Новости и акции</h2>
 
-        <ul class="news__action">
+        <div class="footer__content">
 
-          <li class="action__option">
-            <img src="./img/plain.png" alt="plain" class="action__img">
-            <div class="action__text-content">
-              <p class="action__time">Декабрь 2019</p>
-              <h3 class="action__title">Дешевые путевки на Новый год!</h3>
-              <p class="action__text">Проведи новый год в Тайланде</p>
-            </div>
-          </li>
+          <a href="/" class="logo">
+            <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
+          </a>
 
-          <li class="action__option">
-            <img src="./img/surfer.png" alt="surfer" class="action__img">
-            <div class="action__text-content">
-              <p class="action__time">Декабрь 2019</p>
-              <h3 class="action__title">Акции для серфингистов!</h3>
-              <p class="action__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного
-                пути!</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="paginator">
-        <div class="paginator__display">Страница 1 из 7</div>
-        <ui class="paginator__list">
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">1</a></li>
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">2</a></li>
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">3</a></li>
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">4</a></li>
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">5</a></li>
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">6</a></li>
-          <li class="paginator__item pager__item-active"> <a href="#" class="paginator__link">7</a></li>
-        </ui>
-      </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item-active">
+                <a href="#" class="menu__link-active">Главная</a>
+              </li>
+              <li class="menu__item-active">
+                <a href="#" class="menu__link-active">Услуги</a>
+              </li>
+              <li class="menu__item-active">
+                <a href="#" class="menu__link-active">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
 
 
 
-
-
-    </div>
-
-  
-
-
-
-
-
-  <div class="description">
-
-    <div class="container">
-
-      <div class="description__about">
-
-        <div class="description__text">
-
-          <h3 class="description__title">О нас</h3>
-
-          <div class="description__content">
-            <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
-              осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
-              домашних условиях.
-            </p>
+          <div class="social">
+            <ul class="social__list">
+              <li class="social__item social__item-icon-tg">
+                <a href="#" class="social__link">
+                  <img src="" alt="" class="social__iconed"></a>
+              </li>
+              <li class="social__item social__item-icon-vk">
+                <a href="#" class="social__link">
+                  <img src="" alt="" class="social__iconed"></a>
+              </li>
+              <li class="social__item social__item-icon-fb">
+                <a href="#" class="social__link">
+                  <img src="" alt="" class="social__iconed"></a>
+              </li>
+              <li class="social__item social__item-icon-inst">
+                <a href="#" class="social__link">
+                  <img src="" alt="" class="social__iconed"></a>
+              </li>
+            </ul>
           </div>
-          <div class="container__button">
-            <div class="description__active btn">Подробнее</div>
-          </div>
+
+          <address class="contacts">
+            <div class="contacts__condition">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+
         </div>
 
       </div>
-    </div>
-  </div>
 
 
-
-  </main>
-
-
-
-
-
-
-  <footer class="footer">
-
-    <div class="container">
-
-      <div class="footer__content">
-
-        <a href="/" class="logo">
-          <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
-        </a>
-
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item-active">
-              <a href="#" class="menu__link-active">Главная</a>
-            </li>
-            <li class="menu__item-active">
-              <a href="#" class="menu__link-active">Услуги</a>
-            </li>
-            <li class="menu__item-active">
-              <a href="#" class="menu__link-active">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-
-
-
-        <div class="social">
-          <ul class="social__list">
-            <li class="social__item social__item-icon-tg">
-              <a href="#" class="social__link">
-                <img src="" alt="" class="social__iconed"></a>
-            </li>
-            <li class="social__item social__item-icon-vk">
-              <a href="#" class="social__link">
-                <img src="" alt="" class="social__iconed"></a>
-            </li>
-            <li class="social__item social__item-icon-fb">
-              <a href="#" class="social__link">
-                <img src="" alt="" class="social__iconed"></a>
-            </li>
-            <li class="social__item social__item-icon-inst">
-              <a href="#" class="social__link">
-                <img src="" alt="" class="social__iconed"></a>
-            </li>
-          </ul>
-        </div>
-
-        <address class="contacts">
-          <div class="contacts__condition">Бесплатный звонок по России</div>
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        </address>
-
-      </div>
-
-    </div>
-
-
-  </footer>
+    </footer>
 
 
   </div>
+
 </body>
 
 

@@ -1,0 +1,28 @@
+.greeting {
+  height: 333px;
+ margin-bottom: 160px;
+}
+
+.greeting__content {
+ 
+ width: 511px;
+ height: 197px;
+ margin-bottom: 246px;
+ 
+}
+
+.greeting__title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 27px;
+margin-top: -100px;
+margin-left: 0px;
+  text-align: left;
+  
+}
+
+.greeting__text {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 29px;
+}
