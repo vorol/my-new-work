@@ -1,5 +1,27 @@
+.footer{
+  margin-top: 55px;
+}
+
+
 .footer__content{
-  height: 146px;
-  position: relative;
-  margin-top: 91px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 141px;
+  margin-top: auto;
+}
+
+.footer__content--one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.footer__content--two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding-left: 142px;
 }

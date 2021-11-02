@@ -1,9 +1,24 @@
-.wrapper__content{
+.wrapper--img {
   background: url("../../img/1.png");
-  height: 1126px;
+  width: 1920px;
+  height: 1202px;
 }
 
-.description{
+.description--wpap{
   background: url("../../img/2.png");
+  width: 1920px;
   height: 893px;
-}
+
+  }
+
+ .action__option--plain{
+   background: url(../../img/plain.png);
+   height: 100%;
+   width: 100%;
+ } 
+
+ .action__option--surfer{
+   background: url(../../img/surfer.png);
+   height: 100%;
+   width: 100%;
+ }

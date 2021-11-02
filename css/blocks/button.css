@@ -1,0 +1,29 @@
+button {
+  min-width: 168px;
+  min-height: 55px;
+   background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #F5170E
+ }
+
+
+
+button:hover {
+  background: #fff;
+  color: #F5170E;
+}
+
+
+.btn btn--look{
+  text-align: left;
+  min-width: 135px;
+  min-height: 55px;
+  margin: 0px 206px -7px 24px;
+}
+

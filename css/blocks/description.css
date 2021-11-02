@@ -1,23 +1,22 @@
 .description__about:before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   width: 490px;
   height: 505px;
   background: url("../../img/gates.png") center center / cover no-repeat;
   border-radius: 5px;
-  margin-top: 143px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .description__text {
+  display: block;
   background: url("../../img/mountains.png");
   padding: 70px 81px;
-  width: 785px;
+  max-width: 785px;
   height: 455px;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: -142px;
-  margin-top: 239px;
+  margin-top: -415px;
+  margin-left: 354px;
   border-radius: 5px;
 }
 
