@@ -8,6 +8,14 @@
   margin-top: 26px;
 }
 
+.footer__services{
+  min-height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding-bottom: 50px;
+}
+
 .footer__content--one{
   display: flex;
   justify-content: space-between;
