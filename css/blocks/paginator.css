@@ -2,11 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 41px;
-  margin-bottom: 140px;
-  
+   list-style: none;
 }
 
+.paginator--service{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .paginator__display {
   margin-right: 25px;
@@ -40,4 +45,9 @@
 .paginator--link:hover {
   background: #fff;
   color: #f5170e;
+}
+
+.paginator--service .paginator--link:hover{
+  background:#f5170e;
+  color:#fff ;
 }

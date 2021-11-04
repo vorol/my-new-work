@@ -1,24 +1,23 @@
-.wrapper--img {
+.picture {
   background: url("../../img/1.png");
-  width: 1920px;
   height: 1202px;
+  width: 1920px;
 }
 
-.description--wpap{
+.picture--bottom{
   background: url("../../img/2.png");
-  width: 1920px;
   height: 893px;
+  width: 1920px;
+}
 
-  }
+.action__option--plain {
+  background: url(../../img/plain.png);
+  height: 100%;
+  width: 100%;
+}
 
- .action__option--plain{
-   background: url(../../img/plain.png);
-   height: 100%;
-   width: 100%;
- } 
-
- .action__option--surfer{
-   background: url(../../img/surfer.png);
-   height: 100%;
-   width: 100%;
- }
+.action__option--surfer {
+  background: url(../../img/surfer.png);
+  height: 100%;
+  width: 100%;
+}

@@ -1,5 +1,6 @@
 .news {
   margin-top: 251px;
+  
 }
 
 
@@ -13,6 +14,7 @@
   display: flex;
   justify-content: space-between;
 height: 394px;
+margin-bottom: 53px;
 }
 
 .action__option {
@@ -23,7 +25,7 @@ height: 394px;
   min-height: 394px;
 }
 
-.action__option: :last-child{
+.action__option:last-child{
 margin-right: none;
 }
 
