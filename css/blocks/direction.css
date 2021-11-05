@@ -1,9 +1,7 @@
-.direction {
-  margin-bottom: 120px;
-}
 
 .direction__title {
-  margin: 85px 25px 45px 0;
+  margin-top: 249px;
+  margin-right: 50px;
 }
 
 .direction__text {
@@ -11,16 +9,17 @@
   font-size: 36px;
   font-weight: bold;
   text-align: left;
+  margin-right: 35px;
 }
 
 .direction__pic {
   display: inline-block;
-  margin-left: 24px;
-}
+  }
 
 .direction__list {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .direction__rout {
@@ -50,20 +49,19 @@
   min-height: 33px;
   font-size: 24px;
   font-weight: bold;
-  margin: 2px 232px 22px 0px;
+  margin-right: 232px;
 }
 
 .rout__condition {
   display: flex;
   justify-content: space-between;
-
+margin-top: 21px;
 }
 
 .condition__image {
   display: flex;
   width:50%;
   min-height: 22px;
-  
 }
 
 .condition__text {
@@ -71,13 +69,15 @@
   color: #666;
  }
  
-
+ 
 .route__description {
   height: 100%;
   width: 100%;
   font-size: 14px;
   color: #303030;
   margin-top: 23px;
-  margin-bottom: 27px;
-}
+  }
   
+  .rout__button{
+    margin-top: 28px;
+  }

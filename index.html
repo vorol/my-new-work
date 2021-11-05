@@ -18,10 +18,9 @@
 <body>
 
 
+  <div class="wrapper">
 
-  <main class="wrapper">
-
-    <div class="wrapper--home">
+    <div class="wrapper__home">
 
 
       <header class="header">
@@ -30,7 +29,9 @@
         <div class="container container--flex">
 
           <a href="/" class="logo">
-            <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
+            <div class="logo logo--header">
+              <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
+            </div>
           </a>
 
 
@@ -38,10 +39,10 @@
             <div class="menu menu--header">
               <ul class="menu__list">
                 <li class="menu__item-active">
-                  <a href="#" class="menu__link-active">Главная</a>
+                  <a href="./index.html" class="menu__link-active">Главная</a>
                 </li>
                 <li class="menu__item-active">
-                  <a href="#" class="menu__link-active">Услуги</a>
+                  <a href="./service.html" class="menu__link-active">Услуги</a>
                 </li>
                 <li class="menu__item-active">
                   <a href="#" class="menu__link-active">Отзывы</a>
@@ -79,7 +80,9 @@
             <h1 class="greeting__title">Авторские туры по Азии</h1>
             <p class="greeting__text">Открой для себя Азию</p>
 
-            <button type="button" class="btn">Подробнее</button>
+            <div class="greeting__button">
+              <button type="button" class="btn">Подробнее</button>
+            </div>
 
           </div>
         </div>
@@ -123,8 +126,10 @@
                     значение систем массового участия.</p>
                 </div>
 
+                <div class="rout__button">
+                  <button type="button" class="btn btn--look">Смотреть</button>
+                </div>
 
-                <button type="button" class="btn btn--look">Смотреть</button>
               </div>
             </li>
 
@@ -154,8 +159,9 @@
                     значение систем массового участия.</p>
                 </div>
 
-
-                <button type="button" class="btn btn--look">Смотреть</button>
+                <div class="rout__button">
+                  <button type="button" class="btn btn--look">Смотреть</button>
+                </div>
 
               </div>
             </li>
@@ -187,8 +193,10 @@
                 </div>
 
 
+                <div class="rout__button">
+                  <button type="button" class="btn btn--look">Смотреть</button>
+                </div>
 
-                <button type="button" class="btn btn--look">Смотреть</button>
               </div>
 
             </li>
@@ -241,17 +249,21 @@
 
 
         <div class="paginator">
+          <div class="paginator__home">
 
-          <div class="paginator__display">Страница 1 из 7</div>
-          <ui class="paginator__list">
-            <li class="paginator__item "> <a href="#" class="paginator--link">1</a></li>
-            <li class="paginator__item "> <a href="#" class="paginator--link">2</a></li>
-            <li class="paginator__item "> <a href="#" class="paginator--link">3</a></li>
-            <li class="paginator__item "> <a href="#" class="paginator--link">4</a></li>
-            <li class="paginator__item "> <a href="#" class="paginator--link">5</a></li>
-            <li class="paginator__item "> <a href="#" class="paginator--link">6</a></li>
-            <li class="paginator__item "> <a href="#" class="paginator--link">7</a></li>
-          </ui>
+            <div class="paginator__display">Страница 1 из 7</div>
+
+            <ui class="paginator__list">
+              <li class="paginator__item "> <a href="#" class="paginator--link">1</a></li>
+              <li class="paginator__item "> <a href="#" class="paginator--link">2</a></li>
+              <li class="paginator__item "> <a href="#" class="paginator--link">3</a></li>
+              <li class="paginator__item "> <a href="#" class="paginator--link">4</a></li>
+              <li class="paginator__item "> <a href="#" class="paginator--link">5</a></li>
+              <li class="paginator__item "> <a href="#" class="paginator--link">6</a></li>
+              <li class="paginator__item "> <a href="#" class="paginator--link">7</a></li>
+            </ui>
+
+          </div>
         </div>
       </div>
 
@@ -278,7 +290,9 @@
                 </p>
               </div>
 
+<div class="description__button">
               <button type="button" class="btn">Подробнее</button>
+</div>
 
             </div>
 
@@ -288,83 +302,83 @@
       </div>
 
 
-    
-
-    <footer class="footer">
-
-      <div class="container">
 
 
-        <div class="footer__content--home">
+      <footer class="footer">
 
-          <div class="footer__content footer__content--one">
+        <div class="container">
 
 
-            <a href="/" class="logo">
-              <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
-            </a>
+          <div class="footer__content--home">
 
-            <nav class="menu">
-              <div class="menu menu--footer">
+            <div class="footer__content footer__content--one">
 
-                <ul class="menu__list">
-                  <li class="menu__item-active">
-                    <a href="#" class="menu__link-active">Главная</a>
+
+              <a href="/" class="logo">
+                <img src="./img/logo.png" width="85" height="36" alt="logo air asia" class="logo__pic">
+              </a>
+
+              <nav class="menu">
+                <div class="menu menu--footer">
+
+                  <ul class="menu__list">
+                    <li class="menu__item-active">
+                      <a href="./index.html" class="menu__link-active">Главная</a>
+                    </li>
+                    <li class="menu__item-active">
+                      <a href="./service.html" class="menu__link-active">Услуги</a>
+                    </li>
+                    <li class="menu__item-active">
+                      <a href="#" class="menu__link-active">Отзывы</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+
+            </div>
+
+
+            <div class="footer__content footer__content--two">
+
+              <div class="social">
+                <ul class="social__list">
+                  <li class="social__item social__item--tg">
+                    <a href="#" class="social__link">
+                      <img src="" alt="" class="social__iconed"></a>
                   </li>
-                  <li class="menu__item-active">
-                    <a href="#" class="menu__link-active">Услуги</a>
+                  <li class="social__item social__item--vk">
+                    <a href="#" class="social__link">
+                      <img src="" alt="" class="social__iconed"></a>
                   </li>
-                  <li class="menu__item-active">
-                    <a href="#" class="menu__link-active">Отзывы</a>
+                  <li class="social__item social__item--fb">
+                    <a href="#" class="social__link">
+                      <img src="" alt="" class="social__iconed"></a>
+                  </li>
+                  <li class="social__item social__item--inst">
+                    <a href="#" class="social__link">
+                      <img src="" alt="" class="social__iconed"></a>
                   </li>
                 </ul>
               </div>
-            </nav>
 
-
-          </div>
-
-
-          <div class="footer__content footer__content--two">
-
-            <div class="social">
-              <ul class="social__list">
-                <li class="social__item social__item--tg">
-                  <a href="#" class="social__link">
-                    <img src="" alt="" class="social__iconed"></a>
-                </li>
-                <li class="social__item social__item--vk">
-                  <a href="#" class="social__link">
-                    <img src="" alt="" class="social__iconed"></a>
-                </li>
-                <li class="social__item social__item--fb">
-                  <a href="#" class="social__link">
-                    <img src="" alt="" class="social__iconed"></a>
-                </li>
-                <li class="social__item social__item--inst">
-                  <a href="#" class="social__link">
-                    <img src="" alt="" class="social__iconed"></a>
-                </li>
-              </ul>
+              <address class="contacts">
+                <div class="contacts__condition">Бесплатный звонок по России</div>
+                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              </address>
             </div>
-
-            <address class="contacts">
-              <div class="contacts__condition">Бесплатный звонок по России</div>
-              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            </address>
           </div>
+
+
+
         </div>
 
 
-
-      </div>
-
-
-    </footer>
+      </footer>
 
     </div>
 
-  </main>
+  </div>
 </body>
 
 

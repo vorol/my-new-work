@@ -1,24 +1,17 @@
-.greeting {
-    margin-bottom: 160px;
-}
 
 .greeting__content {
-
   width: 45%;
-  margin-bottom: 246px;
-  margin-top: 114px;
+    margin-top: 115px;
 }
 
 .greeting__title {
   font-size: 72px;
   font-weight: bold;
-  margin-bottom: 27px;
-  text-align: left;
-
+   text-align: left;
 }
 
 .greeting__text {
   font-size: 18px;
   color: #fff;
-  margin-bottom: 29px;
+  margin-top: 20px;
 }

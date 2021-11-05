@@ -9,32 +9,36 @@
 .logo {
   display: flex;
   align-items: center;
-    padding-bottom: 0px;
-    margin-right: 7px;
-
 }
 
-.contacts{
-     font-style: normal;
-   justify-content: space-between;
-  }
-   
+.logo--header {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+}
+
+
+.contacts {
+  font-style: normal;
+  justify-content: space-between;
+}
+
 
 .contacts__phone {
   font-size: 26px;
   text-decoration: none;
   justify-content: flex-end;
   align-items: center;
- 
-  
-}  
+
+
+}
 
 .contacts__workhours {
-      font-size:13px;
-  text-decoration:underline;
+  font-size: 13px;
+  text-decoration: underline;
   color: #fff;
   text-align: right;
- 
+
 }
 
 

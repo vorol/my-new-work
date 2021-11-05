@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-padding-bottom: 11px;
+margin-top: 6px;
 }
 
 .footer__content--one{

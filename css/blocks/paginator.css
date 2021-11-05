@@ -5,14 +5,6 @@
    list-style: none;
 }
 
-.paginator--service{
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
 .paginator__display {
   margin-right: 25px;
   align-items: center;
@@ -25,7 +17,7 @@
     }
 
 
- ,paginator__item{
+ .paginator__item {
   align-items: center;
   text-align: center;
 }
@@ -50,4 +42,12 @@
 .paginator--service .paginator--link:hover{
   background:#f5170e;
   color:#fff ;
+}
+
+.paginator__service{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 15px;
 }
