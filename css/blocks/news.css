@@ -1,5 +1,5 @@
 .news {
-  margin-top: 251px;
+  margin-top: 7px;
   
 }
 
@@ -14,13 +14,13 @@
   display: flex;
   justify-content: space-between;
 height: 394px;
-margin-bottom: 53px;
+margin-bottom: 55px;
 }
 
 .action__option {
   flex: 1;
     border-radius: 4px;
-  margin-right: 30px;
+  margin-right: 32px;
   min-width: 557px;
   min-height: 394px;
 }
@@ -29,9 +29,20 @@ margin-bottom: 53px;
 margin-right: none;
 }
 
-.action__text-content {
- padding:256px 109px 47px 36px ;
+.action__option--plain {
+  background: url(../../img/plain.png);
+  height: 100%;
+  width: 100%;
+}
 
+.action__option--surfer {
+  background: url(../../img/surfer.png);
+  height: 100%;
+  width: 100%;
+}
+
+.action__text-content {
+ padding:264px 109px 39px 36px ;
  }
 
 .action__time {

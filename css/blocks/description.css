@@ -28,14 +28,14 @@
 .description__title {
   font-weight: 700;
   font-size: 36px;
-  margin-bottom: 37px;
+  margin-bottom: 44px;
   color: #060606;
 }
 
 .description__content {
   color: #060606;
   min-height: 135px;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .description__content p {

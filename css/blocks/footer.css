@@ -1,19 +1,23 @@
-
-
 .footer__content{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 141px;
-  margin-top: 26px;
 }
+
+.footer__content--home{
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+   margin-top: 95px; 
+}
+
 
 .footer__services{
   min-height: 132px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-padding-bottom: 50px;
+padding-bottom: 11px;
 }
 
 .footer__content--one{
@@ -22,6 +26,7 @@ padding-bottom: 50px;
   align-items: center;
   width: 50%;
 }
+
 
 .footer__content--two{
   display: flex;

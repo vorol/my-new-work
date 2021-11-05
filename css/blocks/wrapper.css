@@ -1,0 +1,12 @@
+.wrapper--home {
+  background: url("../../img/1.png") center top no-repeat,  url("../../img/2.png") center bottom 5% no-repeat ;
+  width: 1920px;
+  height: 2930px;
+}
+
+.wrapper--services{
+  width: 1920px;
+  height: 2075px;
+}
+
+
