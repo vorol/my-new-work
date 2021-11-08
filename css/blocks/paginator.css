@@ -39,7 +39,7 @@
   color: #f5170e;
 }
 
-.paginator--service .paginator--link:hover{
+.paginator__service .paginator--link:hover{
   background:#f5170e;
   color:#fff ;
 }
@@ -50,4 +50,17 @@
   justify-content: center;
   align-items: center;
 margin-top: 15px;
+}
+
+.paginator__reviews{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 197px;
+}
+
+.paginator__reviews .paginator--link:hover{
+  background:#f5170e;
+  color:#fff ;
 }

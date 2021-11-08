@@ -1,7 +1,7 @@
 button {
   min-width: 168px;
   min-height: 55px;
-   background: #F5170E;
+  background: #F5170E;
   border-radius: 35px;
   padding: 18px 40px;
   color: #fff;
@@ -9,8 +9,9 @@ button {
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid #F5170E
- }
+  border: 1px solid #F5170E;
+  cursor: pointer;
+}
 
 
 
@@ -20,13 +21,21 @@ button:hover {
 }
 
 
-.btn btn--look{
+.btn btn--look {
   text-align: left;
   min-width: 135px;
   min-height: 55px;
   margin: 0px 206px -7px 24px;
 }
 
-.greeting__button{
+.greeting__button {
   margin-top: 30px;
+}
+
+.btn--color--grey {
+  background: #2B2B2B;
+  border: none;
+}
+.btn--color--grey:hover{
+  border: 1px solid #F5170E; 
 }

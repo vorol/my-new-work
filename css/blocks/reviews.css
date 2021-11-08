@@ -1,0 +1,184 @@
+.reviews__list {
+  column-count: 2;
+  column-gap: 27px;
+}
+
+.reviews__item {
+  margin-top: 66px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 28px 32px 28px;
+  color: #F4F5F5;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  min-width: 139px;
+  min-height: 139px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E77A4;
+}
+
+.review__user::after {
+  content: url(../../img/vk-blue\ 1.png);
+  min-height: 30px;
+  margin: 0 12px;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 9px 16px;
+  border-radius: 35px;
+  background: #E7E7E7;
+  margin-top: 3px;
+}
+
+.tag--bg--green {
+  background: #B9EAE4;
+}
+
+
+.review__title {
+  font-size: 30px;
+  color: #1A1B1E;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.review__content-text {
+  margin-top: 14px;
+  color: #818181;
+}
+
+.review__data {
+  font-size: 14px;
+  color: #1A1B1E;
+  font-weight: bold;
+  margin-top: 48px;
+}
+
+.separator {
+  background: url(../../img/couple.png) right 29% bottom no-repeat, url(../../img/Rectangle.png);
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.separation__content {
+  width: 50%;
+
+}
+
+.separator__title {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 91px;
+}
+
+.inner-section__title--riviews{
+  margin-top: 20px;
+}
+
+.form{
+  margin-top: 57px;
+}
+.form__row {
+  display: flex;
+}
+
+.form__input {
+  flex: 1;
+  font-size: 18px;
+  font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #F5170E;
+  background: #FFFFFF;
+  padding: 20px 30px;
+   
+}
+
+.form__input--one{
+  margin-right: 28px;
+}
+
+.form__input::placeholder {
+  color: #666666;
+ }
+
+ .form__row--two{
+   margin-top: 26px;
+ }
+ .form__input--textarea{
+   min-height: 235px;
+ }
+
+.form__controls{
+  display: flex;
+  padding: 23px 0;
+  margin-top: 21px;
+ }
+.form__controls--title{
+  width: 40%;
+  font-size: 18px;
+  color:  #1A1B1E;
+  margin-right: 73px;
+
+}
+
+.controls{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item{
+  margin: 9px 8px;
+}
+ .controls__elem{
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+  background: #B9EAE4;
+}
+.controls__checkbox{
+  display: none;
+}
+
+.form__btns{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.form__btn{
+ margin-right: 17px;
+} 
+.form__btn:last-child{
+  margin-right: 0;
+}
