@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 23px;
 }
 
 
@@ -20,7 +20,9 @@
 
 .contacts {
   font-style: normal;
-  justify-content: space-between;
+    justify-content: space-between;
+  flex-direction: column;
+  align-content: flex-end;
 }
 
 
@@ -33,45 +35,3 @@
 
 }
 
-/*.contacts__workhours {
-  font-size: 13px;
-  text-decoration: underline;
-  color: #fff;
-  text-align: right;
-
-}
-
-
-.timetable {
-
-  display: block;
-  position: absolute;
-  top: 70px;
-  right: 0;
-  min-width: 160px;
-  height: 80px;
-  font-size: 13px;
-  font-weight: bold;
-  font-style: normal;
-  list-style: none;
-  margin-right: 365px;
-  margin-top: 21px;
-  
-}
-
-.timetable__day {
-  display: block;
-  width: 160px;
-  height: 18px;
-  margin-bottom: 4px;
-  margin-top: -3px;
-  font-size: 13px;
-  font-weight: 700;
-
-}
-
-
-.contacts__condition {
-  color: #d6bcbc;
-  font-size: 11px;
-} */

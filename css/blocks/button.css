@@ -1,4 +1,4 @@
-button {
+.btn {
   min-width: 168px;
   min-height: 55px;
   background: #F5170E;
@@ -15,7 +15,7 @@ button {
 
 
 
-button:hover {
+.btn:hover {
   background: #fff;
   color: #F5170E;
 }
@@ -33,9 +33,18 @@ button:hover {
 }
 
 .btn--color--grey {
-  background: #2B2B2B;
+  background: #8E8E8E;
   border: none;
 }
 .btn--color--grey:hover{
-  border: 1px solid #F5170E; 
-}
+  background:#2B2B2B ;
+  border:none; 
+  color: #fff;
+ }
+
+ .form__btn:hover{
+   background:#F5170E;
+   color: #fff;
+ }
+
+ 

@@ -1,3 +1,7 @@
+.footer--reviews{
+  margin-top: 214px;
+}
+
 .footer__content{
   display: flex;
   justify-content: space-between;
@@ -36,3 +40,6 @@ margin-top: 6px;
   padding-left: 142px;
 }
 
+.contacts__condition--home{
+  font-size: 11px;
+}
