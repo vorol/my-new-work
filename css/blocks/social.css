@@ -76,7 +76,7 @@ background: url("../../img/css_sprites.png") -10px -10px;
   
   .social__elem--inst::before{
     background: url("../../img/css_sprites.png") -66px -122px;
-
+  }
 
 
 
@@ -153,4 +153,4 @@ background: url("../../img/css_sprites.png") -10px -10px;
 }
 .social__item--inst .social__link:hover{
   background-image: url("../../img/in2.png");
-}*/}
+}*/

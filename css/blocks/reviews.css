@@ -129,11 +129,14 @@
   font-size: 18px;
   font-size: 18px;
     border-radius: 5px;
-    border: 1px solid #F5170E;
+   border: none;
   background: #FFFFFF;
   padding: 20px 30px;
-   
-}
+ }
+
+ .form__input:hover{
+  border: 1px solid #F5170E;
+ }
 
 .form__input--one{
   margin-right: 28px;
@@ -141,8 +144,10 @@
 
 .form__input::placeholder {
   color: #666666;
- }
+   }
 
+
+ 
  .form__row--two{
    margin-top: 26px;
  }
@@ -155,10 +160,11 @@
   padding: 13px 0;
   margin-top: 5px;
  }
+
 .form__controls--title{
   width: 32%;
   font-size: 18px;
-  color:  #1A1B1E;
+  color:#1A1B1E;
   margin-right: 73px;
 padding: 23px 5px;
 }
@@ -189,7 +195,8 @@ padding: 23px 5px;
   justify-content: flex-end;
   
 }
-.form__btn{
+
+/*.form__btn{
  margin-right: 17px;
 } 
 .form__btn:last-child{
