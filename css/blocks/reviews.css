@@ -94,7 +94,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 84px;
   }
 
 
@@ -108,7 +108,8 @@
   width: 55%;
   }
   .inner-section--reviews{
-    padding-top: 41px;
+    padding-top: 6px;
+    padding-bottom: 91px;
   }
   
 .inner-section__title--riviews{
@@ -134,8 +135,9 @@
   padding: 20px 30px;
  }
 
- .form__input:hover{
+ .form__input:focus{
   border: 1px solid #F5170E;
+  outline: none;
  }
 
 .form__input--one{
